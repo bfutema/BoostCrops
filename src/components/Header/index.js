@@ -22,7 +22,6 @@ function Header({ cartSize }) {
         </nav>
 
         <aside>
-          <Link to="/market">Loja</Link>
           <Cart to="/cart">
             <div>
               <strong>Meu Carrinho</strong>

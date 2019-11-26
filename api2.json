@@ -29,37 +29,37 @@
     {
       "id": 1,
       "title": "Mamão",
-      "price": "Rico em fibras e nutrientes como a vitamina C e o licopeno.",
+      //"price": "O mamão papaia é uma fruta saborosa e saudável, rico em fibras e nutrientes como a vitamina C e o licopeno.",
       "image": "http://www.acasadoagricultor.com.br/image/cache/data/Blog/25-11-2019-250x250.jpg"
     },
     {
       "id": 2,
       "title": "Graviola",
-      "price": "Se você tem o costume de comer frutas - seja em forma de sucos, vitaminas.",
+      "price": "Se você tem o costume de comer frutas - seja em forma de sucos, vitaminas ou in natura -, muito provavelmente já deve ter ouvido falar na graviola.",
       "image": "http://www.acasadoagricultor.com.br/image/cache/data/Blog/18-11-2019-250x250.jpg"
     },
     {
       "id": 3,
       "title": "Acerola",
-      "price": "Acerola é o delicioso fruto que nasce na árvore chamada aceroleira.",
+      "price": "Acerola é o delicioso fruto que nasce na árvore chamada aceroleira, cujo nome científico é Malpighia emarginata.",
       "image": "http://www.acasadoagricultor.com.br/image/cache/data/Blog/04-11-2019-250x250.jpg"
     },
     {
       "id": 5,
       "title": "Coco verde",
-      "price": "É muito bom tomar uma água de coco gelada para refrescar.",
+      "price": "É muito bom tomar uma água de coco gelada para refrescar em dias quentes, não é mesmo?",
       "image": "http://www.acasadoagricultor.com.br/image/cache/data/Blog/28-10-2019-250x250.jpg"
     },
     {
       "id": 6,
       "title": "Goiaba",
-      "price": "Rico em vitamina C, A e B.",
+      "price": "A goiaba é uma fruta com grande valor nutritivo e propriedades medicinais, devido ao seu conteúdo em vitamina C, A e B.",
       "image": "http://www.acasadoagricultor.com.br/image/cache/data/Blog/21-10-2019-250x250.jpg"
     },
     {
       "id": 4,
       "title": "Manga",
-      "price": "A manga é uma fruta deliciosa.",
+      "price": "A manga é uma fruta deliciosa, e com um perfume que a distingue muito bem das outras frutas.",
       "image": "http://www.acasadoagricultor.com.br/image/cache/data/Blog/14-10-2019-250x250.jpg"
     }
   ],

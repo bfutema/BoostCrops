@@ -6,7 +6,7 @@ export const ProductList = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   list-style: none;
-  margin: 50px auto 0;
+  margin: 20px 0 0 240px;
   max-width: 1000px;
 
   li {
@@ -15,10 +15,11 @@ export const ProductList = styled.ul`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
+    height: 300px;
 
     img {
       align-self: center;
-      max-width: 150px;
+      max-width: 110px;
     }
 
     > strong {
@@ -29,7 +30,7 @@ export const ProductList = styled.ul`
     }
 
     > span {
-      font-size: 21px;
+      font-size: 14px;
       font-weight: bold;
       margin: 5px 0 20px;
     }
@@ -65,6 +66,7 @@ export const ProductList = styled.ul`
         flex: 1;
         text-align: center;
         font-weight: bold;
+        padding: 12px;
       }
     }
   }

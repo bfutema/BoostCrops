@@ -39,15 +39,15 @@ function Home({ amount }) {
         <li key={product.id}>
           <img src={product.image} alt={product.title} />
           <strong>{product.title}</strong>
-          <span>{product.priceFormatted}</span>
+          <span>{product.price}</span>
 
           <button type="button" onClick={() => handleAddProduct(product.id)}>
-            <div>
+            {/* <div>
               <MdAddShoppingCart size={16} color="#fff" />{' '}
               {amount[product.id] || 0}
-            </div>
+            </div> */}
 
-            <span>ADICIONAR AO CARRINHO</span>
+            <span>CONTATAR AGRICULTOR</span>
           </button>
         </li>
       ))}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Bar, Line, Pie } from 'react-chartjs-2';
+import { Bar, Line, Pie, Radar } from 'react-chartjs-2';
 
 export default function Chart({ chartData }) {
   const [chartData2, setChartData] = useState({});
@@ -19,7 +19,22 @@ export default function Chart({ chartData }) {
         options={{
           title: {
             display: true,
-            text: `Largest Cities In City`,
+            text: `Hectares`,
+            fontSize: 25,
+          },
+          legend: {
+            display: true,
+            position: 'right',
+          },
+        }}
+      />
+
+      <Radar
+        data={chartData2}
+        options={{
+          title: {
+            display: true,
+            text: `Mapeamento das safras`,
             fontSize: 25,
           },
           legend: {
@@ -34,7 +49,7 @@ export default function Chart({ chartData }) {
         options={{
           title: {
             display: true,
-            text: `Largest Cities In City`,
+            text: `Produtividade`,
             fontSize: 25,
           },
           legend: {
@@ -49,7 +64,7 @@ export default function Chart({ chartData }) {
         options={{
           title: {
             display: true,
-            text: `Largest Cities In City`,
+            text: `Produtos mais vendidos`,
             fontSize: 25,
           },
           legend: {
